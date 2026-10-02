@@ -23,3 +23,5 @@
   keine dbatools-Abhaengigkeit.
 - Live-Test `Tests\Test-sqmMergeGenerator.ps1` (36 Pruefungen), auf DEV01 (SQL Server 2022)
   unter PowerShell 5.1 und 7 bestanden.
+- Handbuch `docs/AdminHandbuch.md` (PDF-Download auf powershelldba.de), Projektseite und
+  Praesentation auf powershelldba.de.

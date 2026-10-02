@@ -14,6 +14,11 @@ and PowerShell 7.
 
 ![sqmMergeGenerator GUI](docs/sqmMergeGenerator-gui.png)
 
+**Project page:** [powershelldba.de/sqmmergegenerator](https://www.powershelldba.de/sqmmergegenerator/) ·
+**Handbook (German):** [docs/AdminHandbuch.md](docs/AdminHandbuch.md), as
+[PDF](https://www.powershelldba.de/sqmmergegenerator/downloads/sqmMergeGenerator-Handbuch.pdf) ·
+**Slides:** [presentation](https://www.powershelldba.de/presentations/sqmMergeGenerator_Presentation.html)
+
 ## GUI workflow
 
 ```powershell
@@ -120,6 +125,13 @@ databases afterwards.
 ```powershell
 .\Tests\Test-sqmMergeGenerator.ps1 -SqlInstance DEV01 -SqlCredential (Get-Credential)
 ```
+
+## Documentation
+
+- Handbook (German): [docs/AdminHandbuch.md](docs/AdminHandbuch.md), GUI walkthrough, both modes,
+  every option, scripting, test procedure, troubleshooting. The PDF is built with
+  `python Tools/Build-AdminHandbookPdf.py` (see the script header).
+- Changelog: [CHANGELOG.md](CHANGELOG.md)
 
 ## License
 
